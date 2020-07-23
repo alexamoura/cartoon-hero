@@ -1,23 +1,24 @@
 body{
 	margin: 0;
-	font-family: 'Roboto Mono', monospace; 
+	font-family: 'Palanquin Dark', sans-serif;
 	font-size: 20px;
+	background-color: #388C77;
 }
 
 header{
 	background: #388C77;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-
 header h1{
-	color: white;
-	font-size: 50px;	
+	color: #C5CC04;
+	font-size: 70px;
+	padding-top: 0px;	
+	letter-spacing: 5px;
 }
 h1, h2{
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Palanquin Dark', sans-serif;
 }
 header img{
 	border-radius: 100%;
@@ -37,7 +38,14 @@ main img{
 h2{
 	font-size: 35px;
 	color: #C5CC04;
-	margin: 40px 0 10px;
+	margin: 20px 0 10px;
+}
+ol{
+	color: #C1E1CF;
+}
+p.text{
+	color: #C1E1CF;
+	font-family: font-family: 'Palanquin Dark', sans-serif;
 }
 a{
 	color: #C5CC04;
@@ -64,7 +72,8 @@ footer a:hover{
 }
 
 p.caption{
-	color: #999999;
+	color: #99ADA8;
 	font-style: italic;
 	margin-top: 0;
+	font-size: 15px;
 }
